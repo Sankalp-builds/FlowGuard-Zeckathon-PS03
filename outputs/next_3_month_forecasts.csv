@@ -1,0 +1,7 @@
+forecast_month,target,horizon,selected_model,point_forecast,lower05,lower80,upper80,lower95,upper95,interval_method,training_through
+2026-10,net_flow_liquid,1,seasonal_naive,89375.11859293,24071.488534677388,37525.37949102449,142515.28165022592,17947.06477148751,154968.07638955675,"empirical out-of-fold residual quantiles, grouped by horizon",2026-09
+2026-11,net_flow_liquid,2,seasonal_naive,-14050.7164701,-79354.34652835262,-65900.4555720055,39089.44658719593,-85478.77029154249,51542.24132652675,"empirical out-of-fold residual quantiles, grouped by horizon",2026-09
+2026-12,net_flow_liquid,3,seasonal_naive,-47307.9549328601,-112611.5849911127,-99157.6940347656,5832.208124435834,-118736.00875430259,18285.002863766655,"empirical out-of-fold residual quantiles, grouped by horizon",2026-09
+2026-10,net_flow_overnight,1,HistGradientBoosting,12935.855465421811,-18778.337126947918,-13949.20635991754,40058.94460772126,-24791.27236586022,50193.22600101771,"empirical out-of-fold residual quantiles, grouped by horizon",2026-09
+2026-11,net_flow_overnight,2,seasonal_naive,-37624.5264986302,-71342.34924211333,-58985.73192974954,-11391.56262365136,-74946.09759287798,-7410.7473118367125,"empirical out-of-fold residual quantiles, grouped by horizon",2026-09
+2026-12,net_flow_overnight,3,HistGradientBoosting,-17184.635717194284,-47702.837700749835,-43186.33213263325,8030.6716076356715,-52664.67799624655,16714.38253419156,"empirical out-of-fold residual quantiles, grouped by horizon",2026-09

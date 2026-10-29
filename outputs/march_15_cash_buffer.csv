@@ -1,0 +1,3 @@
+forecast_month,target,horizon,selected_model,point_net_flow,p95_potential_outflow_buffer,one_sided_lower05_net_flow,confidence_interval_lower95,confidence_interval_upper95,units,reason
+2027-03,net_flow_liquid,6,seasonal_naive,-134987.644659971,200291.2747182236,-200291.2747182236,-206415.69848141348,-69394.68686334425,source AMFI units,95th percentile potential outflow from lower 5% net-flow forecast bound
+2027-03,net_flow_overnight,6,seasonal_naive,-40227.8993096799,73945.72205316303,-73945.72205316303,-77549.4704039277,-10014.120122886416,source AMFI units,95th percentile potential outflow from lower 5% net-flow forecast bound

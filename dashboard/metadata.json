@@ -1,0 +1,8 @@
+{
+  "name": "FlowGuard Monthly Fund-Flow Dashboard",
+  "description": "Local-data dashboard for monthly net-flow forecasts, uncertainty intervals, and potential-outflow cash buffers for Indian Liquid and Overnight mutual funds (Zeckathon PS 03).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "DATA_VISUALIZATION_DASHBOARD"
+  ]
+}

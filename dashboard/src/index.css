@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-page: #071216;
+    --surface-main: #0B2023;
+    --surface-raised: #103238;
+    --primary-teal: #00D4C3;
+    --cyan-highlight: #48F0DE;
+    --mint-text: #A9F2E7;
+    --text-primary: #F2FBF9;
+    --text-secondary: #A8C6C3;
+    --border-grid: #1D5555;
+    --color-outflow: #FF7B72;
+    --color-warning: #F2C66D;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-feature-settings: "tnum" on, "cv02" on, "cv03" on, "cv04" on;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .font-mono-code {
+    font-family: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbars matching dark teal theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #071216;
+}
+::-webkit-scrollbar-thumb {
+  background: #1D5555;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00D4C3;
+}
+
+/* Subtle pixel tech grid accent */
+.pixel-grid-bg {
+  background-image: radial-gradient(rgba(29, 85, 85, 0.25) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.pixel-corner {
+  clip-path: polygon(
+    0 4px,
+    4px 4px,
+    4px 0,
+    calc(100% - 4px) 0,
+    calc(100% - 4px) 4px,
+    100% 4px,
+    100% calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 4px) 100%,
+    4px 100%,
+    4px calc(100% - 4px),
+    0 calc(100% - 4px)
+  );
+}

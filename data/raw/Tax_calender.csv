@@ -1,0 +1,57 @@
+date,event_type,financial_year,note
+2021-03-31,Financial year end,2020-21,Indian financial year ends on 31 March
+2021-03-31,Quarter end,2020-21,Calendar quarter-end marker; feature engineering may map this to the month
+2021-06-15,Advance tax - standard scheduled due date,2021-22,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2021-06-30,Quarter end,2021-22,Calendar quarter-end marker; feature engineering may map this to the month
+2021-09-15,Advance tax - standard scheduled due date,2021-22,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2021-09-30,Quarter end,2021-22,Calendar quarter-end marker; feature engineering may map this to the month
+2021-12-15,Advance tax - standard scheduled due date,2021-22,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2021-12-31,Quarter end,2021-22,Calendar quarter-end marker; feature engineering may map this to the month
+2022-03-15,Advance tax - standard scheduled due date,2021-22,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2022-03-31,Financial year end,2021-22,Indian financial year ends on 31 March
+2022-03-31,Quarter end,2021-22,Calendar quarter-end marker; feature engineering may map this to the month
+2022-06-15,Advance tax - standard scheduled due date,2022-23,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2022-06-30,Quarter end,2022-23,Calendar quarter-end marker; feature engineering may map this to the month
+2022-09-15,Advance tax - standard scheduled due date,2022-23,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2022-09-30,Quarter end,2022-23,Calendar quarter-end marker; feature engineering may map this to the month
+2022-12-15,Advance tax - standard scheduled due date,2022-23,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2022-12-31,Quarter end,2022-23,Calendar quarter-end marker; feature engineering may map this to the month
+2023-03-15,Advance tax - standard scheduled due date,2022-23,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2023-03-31,Financial year end,2022-23,Indian financial year ends on 31 March
+2023-03-31,Quarter end,2022-23,Calendar quarter-end marker; feature engineering may map this to the month
+2023-06-15,Advance tax - standard scheduled due date,2023-24,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2023-06-30,Quarter end,2023-24,Calendar quarter-end marker; feature engineering may map this to the month
+2023-09-15,Advance tax - standard scheduled due date,2023-24,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2023-09-30,Quarter end,2023-24,Calendar quarter-end marker; feature engineering may map this to the month
+2023-12-15,Advance tax - standard scheduled due date,2023-24,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2023-12-31,Quarter end,2023-24,Calendar quarter-end marker; feature engineering may map this to the month
+2024-03-15,Advance tax - standard scheduled due date,2023-24,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2024-03-31,Financial year end,2023-24,Indian financial year ends on 31 March
+2024-03-31,Quarter end,2023-24,Calendar quarter-end marker; feature engineering may map this to the month
+2024-06-15,Advance tax - standard scheduled due date,2024-25,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2024-06-30,Quarter end,2024-25,Calendar quarter-end marker; feature engineering may map this to the month
+2024-09-15,Advance tax - standard scheduled due date,2024-25,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2024-09-30,Quarter end,2024-25,Calendar quarter-end marker; feature engineering may map this to the month
+2024-12-15,Advance tax - standard scheduled due date,2024-25,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2024-12-31,Quarter end,2024-25,Calendar quarter-end marker; feature engineering may map this to the month
+2025-03-15,Advance tax - standard scheduled due date,2024-25,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2025-03-31,Financial year end,2024-25,Indian financial year ends on 31 March
+2025-03-31,Quarter end,2024-25,Calendar quarter-end marker; feature engineering may map this to the month
+2025-06-15,Advance tax - standard scheduled due date,2025-26,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2025-06-30,Quarter end,2025-26,Calendar quarter-end marker; feature engineering may map this to the month
+2025-09-15,Advance tax - standard scheduled due date,2025-26,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2025-09-30,Quarter end,2025-26,Calendar quarter-end marker; feature engineering may map this to the month
+2025-12-15,Advance tax - standard scheduled due date,2025-26,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2025-12-31,Quarter end,2025-26,Calendar quarter-end marker; feature engineering may map this to the month
+2026-03-15,Advance tax - standard scheduled due date,2025-26,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2026-03-31,Financial year end,2025-26,Indian financial year ends on 31 March
+2026-03-31,Quarter end,2025-26,Calendar quarter-end marker; feature engineering may map this to the month
+2026-06-15,Advance tax - standard scheduled due date,2026-27,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2026-06-30,Quarter end,2026-27,Calendar quarter-end marker; feature engineering may map this to the month
+2026-09-15,Advance tax - standard scheduled due date,2026-27,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2026-09-30,Quarter end,2026-27,Calendar quarter-end marker; feature engineering may map this to the month
+2026-12-15,Advance tax - standard scheduled due date,2026-27,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2026-12-31,Quarter end,2026-27,Calendar quarter-end marker; feature engineering may map this to the month
+2027-03-15,Advance tax - standard scheduled due date,2026-27,Standard scheduled date; verify any year-specific extension or holiday adjustment
+2027-03-31,Financial year end,2026-27,Indian financial year ends on 31 March
+2027-03-31,Quarter end,2026-27,Calendar quarter-end marker; feature engineering may map this to the month

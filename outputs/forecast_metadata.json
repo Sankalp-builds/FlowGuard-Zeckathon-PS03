@@ -1,0 +1,21 @@
+{
+  "data_as_of_month": "2026-09",
+  "forecast_created_local_date": "2026-10-29",
+  "release_status": "AMFI monthly reports verified; supplementary macro/market source panels lack retrieval-level audit metadata",
+  "source_validation_report": "reports/data_validation.md",
+  "target_sign": "positive means net inflow; negative means net outflow",
+  "feature_timing": "Targets and monthly economic aggregates are lagged so only information through the prior month is used. Planned tax/quarter/fiscal calendar events are known ahead and aligned to the forecast target month.",
+  "model_selection": "Model selected separately for each category and horizon by rolling-origin MAE across the last 24 target releases. The same folds are used for model selection and reported comparison; winner scores are validation estimates, not an independent final holdout.",
+  "intervals": "Empirical residual intervals use prior rolling-origin forecast errors by category/model/horizon, including a pre-test calibration period. Backtest scoring still covers all 24 target releases; each interval uses only errors available before its origin. Small sample makes tail estimates uncertain.",
+  "missingness": "The two initial NSE rolling-volatility observations remain missing in source data; lagged-feature imputation is fitted within each training fold.",
+  "decision_cost": {
+    "shortfall_multiplier": 3.0,
+    "idle_cash_yield_proxy": "latest available 91-day T-bill yield, annualized and prorated by horizon",
+    "sensitivity_shortfall_multipliers": [
+      1,
+      3,
+      5
+    ],
+    "note": "PS 03 specifies a 3x shortfall penalty. Idle cash yield drag is proxied with the 91-day T-bill yield because the data contain no direct cash-yield series."
+  }
+}
